@@ -1,0 +1,7 @@
+{
+  "name": "mapea-template",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "custom"
+}

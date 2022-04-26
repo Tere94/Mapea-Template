@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Paseo": "Alcalde Marqués del Contadero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.996426, 37.382205]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Parque": "Prado de San Sebastián"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.986881, 37.379745]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Setas": "Setas de Sevilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.991785, 37.393355]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Aeropuerto": "Aeropuerto de Sevilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.892779, 37.420621]
+      }
+    }
+  ]
+}
