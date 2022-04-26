@@ -1,0 +1,9 @@
+*.settings
+*.project
+node
+node_modules
+platforms
+dist
+build
+doc
+plugins
