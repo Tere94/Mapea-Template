@@ -1,5 +1,3 @@
-![Ionic CI](https://github.com/Tere94/Mapea-Template/workflows/Ionic%20CI/badge.svg)
-
 # mapea-template
 Make easy use Ionic with VanillaJS thanks to this template and native web components
 
