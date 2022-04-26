@@ -1,11 +1,11 @@
 # mapea-template
-Make easy use Ionic with VanillaJS thanks to this template and native web components
+Facilite el uso de Ionic con VanillaJS gracias a esta plantilla y componentes web nativos
 
-#### :warning: Under construction :warning:
+#### :warning: En construcción :warning:
 
-## Getting Started
+## Empezando
 
-**Prerequisites**
+**Requisitos previos**
 * Node & npm: https://nodejs.org/en/download/
   - Version node: 10.20.1
   - Version npm: 6.14.13 
@@ -16,48 +16,48 @@ Make easy use Ionic with VanillaJS thanks to this template and native web compon
   npm i -g ionic
   ```
     
-To build app packages, see the Ionic official doc:
+Para crear paquetes de aplicaciones, consulte el documento oficial de Ionic:
 * Android Setup: https://ionicframework.com/docs/developing/android
 
-Set environment variables:
+Establecer variables de entorno:
 * export ANDROID_SDK_ROOT=/home/user/Android/Sdk/
 * export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
-Accept SDK licenses:
+Aceptar licencias SDK:
 * yes | /home/user/Android/Sdk/tools/bin/sdkmanager --licenses
 
-Java8 in the system path:
+Java8 en la ruta del sistema:
 * export JAVA_HOME= /home/user/jvm/jdk1.8.0_231/
 * export PATH=${PATH}:$JAVA_HOME
 
-Install Gradle and add it to the path:
+Instale Gradle y agréguelo a la ruta:
 * export PATH=${PATH}:/home/user/gradle-6.7/bin
 
-## Developing app
+## Aplicación en desarrollo
 ```javascript
   ionic serve
 ```
 
-## Apk generation
+## Generación de aplicaciones
 
-* Cordova in "global" mode:
+* Cordova en modo "global":
 
   ```javascript
   npm i -g cordova
   ```
-* Platform:
+* Plataforma:
 
   ```javascript
   cordova platform add android --save
   ```
   
-* Generate file: app-mapea-templates/platforms/android/app/build/outputs/apk/debug/app-debug.apk
+* Generar archivo: app-mapea-templates/platforms/android/app/build/outputs/apk/debug/app-debug.apk
 
   ```javascript
   ionic cordova build android
   ```
  
 
-## ¡ IMPORTANT !
-Components than have a map, can't use shadowDOM because the Mapea import is global and will not have access to component DOM
+## ¡ IMPORTANTE !
+Los componentes que tienen un mapa no pueden usar shadowDOM porque la importación de Mapea es global y no tendrá acceso al componente DOM
  
