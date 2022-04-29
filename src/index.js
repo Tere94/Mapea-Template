@@ -10,7 +10,6 @@ import SearchMap from './routes/search-map'
 import ViewTabs from './routes/tabs'
 import ViewTabsMap from './routes/tabs/tab-map'
 import ViewTabsInfo from './routes/tabs/tab-information'
-import ViewAcordeon from './routes/acordeon'
 
 console.info(`${config.name}@${config.version}`)
 
@@ -32,4 +31,3 @@ window.customElements.define('search-map', SearchMap)
 window.customElements.define('view-tabs', ViewTabs)
 window.customElements.define('tab-map', ViewTabsMap)
 window.customElements.define('tab-information', ViewTabsInfo)
-window.customElements.define('view-acordeon', ViewAcordeon)
