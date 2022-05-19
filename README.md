@@ -16,6 +16,11 @@ Facilite el uso de Ionic con VanillaJS gracias a esta plantilla y componentes we
   npm i -g ionic
   ```
     
+## Aplicación en desarrollo
+```javascript
+  ionic serve
+```
+
 Para crear paquetes de aplicaciones, consulte el documento oficial de Ionic:
 * Android Setup: https://ionicframework.com/docs/developing/android
 
@@ -32,11 +37,6 @@ Java8 en la ruta del sistema:
 
 Instale Gradle y agréguelo a la ruta:
 * export PATH=${PATH}:/home/user/gradle-6.7/bin
-
-## Aplicación en desarrollo
-```javascript
-  ionic serve
-```
 
 ## Generación de aplicaciones
 
