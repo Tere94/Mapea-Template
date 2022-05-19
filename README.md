@@ -24,7 +24,7 @@ Facilite el uso de Ionic con VanillaJS gracias a esta plantilla y componentes we
 ## Variables de entorno
 Establecer variables de entorno:
 
-**_Linux_**
+**_Linux_** (Terminal de comandos)
 
 * export ANDROID_SDK_ROOT=/home/user/Android/Sdk/
 * export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
@@ -39,7 +39,7 @@ Java8 en la ruta del sistema:
 Instale Gradle y agréguelo a la ruta:
 * export PATH=${PATH}:/home/user/gradle-6.7/bin
 
-**_MacOS_**
+**_MacOS_** (Terminal de comandos)
 
 Sustituir "export" por "let"
 
